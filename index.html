@@ -1,59 +1,60 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menuiserie Ébénisterie - [Nom de l'entreprise]</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le bois d'la Yaute</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>[Nom de l'entreprise]</h1>
-        <nav>
-            <a href="#accueil">Accueil</a>
-            <a href="#portfolio">Réalisations</a>
-            <a href="#boutique">Boutique</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    
-    <section id="accueil">
-        <h2>Bienvenue chez [Nom de l'entreprise]</h2>
-        <p>Découvrez nos créations en bois uniques, faites sur mesure pour vous.</p>
+  <header>
+    <div class="logo">Le bois d'la Yaute</div>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#products">Produits</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h1>Le bois d'la Yaute</h1>
+      <p>Artisanat d'exception en bois pour une clientèle de prestige.</p>
     </section>
-    
-    <section id="portfolio">
-        <h2>Nos réalisations</h2>
-        <div class="gallery">
-            <img src="image1.jpg" alt="Produit 1">
-            <img src="image2.jpg" alt="Produit 2">
-            <img src="image3.jpg" alt="Produit 3">
+
+    <section id="about">
+      <h2>À propos</h2>
+      <p>Bienvenue chez "Le bois d'la Yaute", une entreprise fondée par Enzo, dédiée à la création d'objets en bois de haute qualité. Située au cœur des Alpes, notre mission est d'apporter chaleur et élégance à vos espaces de vie avec des créations uniques, conçues pour les stations de ski prestigieuses telles que Megève et Courchevel.</p>
+    </section>
+
+    <section id="products">
+      <h2>Nos produits</h2>
+      <div class="product-grid">
+        <div class="product">
+          <img src="produit1.jpg" alt="Produit 1">
+          <h3>Produit 1</h3>
+          <p>Exemple de produit de luxe.</p>
         </div>
+        <div class="product">
+          <img src="produit2.jpg" alt="Produit 2">
+          <h3>Produit 2</h3>
+          <p>Fabriqué sur commande avec des matériaux premium.</p>
+        </div>
+        <!-- Ajoute d'autres produits ici -->
+      </div>
     </section>
-    
-    <section id="boutique">
-        <h2>Boutique</h2>
-        <p>À venir : un espace pour acheter nos créations en ligne.</p>
-    </section>
-    
+
     <section id="contact">
-        <h2>Contact</h2>
-        <form action="https://formsubmit.co/votre-email" method="POST">
-            <label for="nom">Nom :</label>
-            <input type="text" id="nom" name="nom" required>
-            
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Envoyer</button>
-        </form>
+      <h2>Contact</h2>
+      <p>Pour toute demande, contactez Enzo par email ou téléphone :</p>
+      <p>Email : contact@leboisdlaYaute.com</p>
+      <p>Téléphone : +33 6 XX XX XX XX</p>
     </section>
-    
-    <footer>
-        <p>© [Nom de l'entreprise] - Tous droits réservés.</p>
-    </footer>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Le bois d'la Yaute. Tous droits réservés.</p>
+  </footer>
 </body>
 </html>
+
