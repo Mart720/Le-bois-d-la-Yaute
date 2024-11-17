@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menuiserie Ébénisterie - [Nom de l'entreprise]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>[Nom de l'entreprise]</h1>
+        <nav>
+            <a href="#accueil">Accueil</a>
+            <a href="#portfolio">Réalisations</a>
+            <a href="#boutique">Boutique</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <section id="accueil">
+        <h2>Bienvenue chez [Nom de l'entreprise]</h2>
+        <p>Découvrez nos créations en bois uniques, faites sur mesure pour vous.</p>
+    </section>
+    
+    <section id="portfolio">
+        <h2>Nos réalisations</h2>
+        <div class="gallery">
+            <img src="image1.jpg" alt="Produit 1">
+            <img src="image2.jpg" alt="Produit 2">
+            <img src="image3.jpg" alt="Produit 3">
+        </div>
+    </section>
+    
+    <section id="boutique">
+        <h2>Boutique</h2>
+        <p>À venir : un espace pour acheter nos créations en ligne.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="https://formsubmit.co/votre-email" method="POST">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>© [Nom de l'entreprise] - Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
