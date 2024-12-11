@@ -1,6 +1,6 @@
 /* Applique l'image d'arrière-plan */
 body {
-    background-image: url('images/extracted_background.webp'); /* Chemin vers ton image */
+    background-image: url('A.webp'); /* Chemin vers ton image */
     background-size: cover; /* L'image couvre tout l'écran */
     background-repeat: no-repeat; /* Pas de répétition */
     background-attachment: fixed; /* L'image reste fixe lors du scroll */
