@@ -4,6 +4,14 @@ body {
     font-family: 'Legend', sans-serif;
     color: #333;
     background-color: #f4f4f4;
+    background-image: url('C:\Users\marti\Downloads\extracted_background.webp'); /* Chemin vers ton image */
+    background-size: cover; /* Pour que l'image couvre tout l'écran */
+    background-repeat: no-repeat; /* Évite que l'image se répète */
+    background-attachment: fixed; /* Garde l'image fixe lors du défilement */
+    background-position: center; /* Centre l'image */
+    font-family: 'Arial', sans-serif; /* Style de police si nécessaire */
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0;
 }
 
 .header {
