@@ -4,29 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Le Bois D'La Yaute</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Le Bois D'La Yaute</h1>
-        <p>Artisanat de luxe en bois, inspiré par l'esprit des Alpes.</p>
-        <a href="#about" class="cta">Découvrez nos créations</a>
+    <header class="hero-section">
+        <div class="overlay">
+            <h1>Le Bois D'La Yaute</h1>
+            <p>Luxury Woodcraft & Design</p>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#about">À Propos</a></li>
+                    <li><a href="#gallery">Réalisations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="about">
-        <h2>À Propos</h2>
-        <p>Le Bois D'La Yaute transforme le bois en véritables œuvres d'art pour des chalets luxueux. Découvrez nos réalisations et concevez un design unique avec nous.</p>
-    </section>
+    <main>
+        <section id="about" class="about-section">
+            <h2>À Propos</h2>
+            <p>Le Bois D'La Yaute transforme le bois en véritables œuvres d'art pour les chalets alpins les plus prestigieux.</p>
+        </section>
 
-    <section id="gallery">
-        <h2>Nos Réalisations</h2>
-        <div class="gallery-grid">
-            <img src="images/wood1.jpg" alt="Création en bois 1">
-            <img src="images/wood2.jpg" alt="Création en bois 2">
-            <img src="images/wood3.jpg" alt="Création en bois 3">
-            <img src="images/wood4.jpg" alt="Création en bois 4">
-        </div>
-    </section>
+        <section id="gallery" class="gallery-section">
+            <h2>Nos Réalisations</h2>
+            <div class="gallery">
+                <img src="image1.jpg" alt="Création en bois 1">
+                <img src="image2.jpg" alt="Création en bois 2">
+                <img src="image3.jpg" alt="Création en bois 3">
+                <img src="image4.jpg" alt="Création en bois 4">
+            </div>
+        </section>
+    </main>
 
     <footer>
         <p>© 2024 Le Bois D'La Yaute - Tous droits réservés.</p>
