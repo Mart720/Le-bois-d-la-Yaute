@@ -1,103 +1,49 @@
-/* Applique l'image d'arrière-plan */
+/* Style général pour la page */
 body {
-    background-image: url('A.webp'); /* Chemin vers ton image */
+    background-image: url('A'); /* Chemin vers ton image */
     background-size: cover; /* L'image couvre tout l'écran */
     background-repeat: no-repeat; /* Pas de répétition */
     background-attachment: fixed; /* L'image reste fixe lors du scroll */
     background-position: center; /* L'image est centrée */
-    color: #fff; /* Texte blanc pour être lisible */
-    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff; /* Texte en blanc */
 }
 
-
-/* Style pour l'en-tête */
+/* Style pour le header */
 header {
     text-align: center;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour lisibilité */
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour mieux lire le texte */
+    color: #fff;
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     margin: 0;
 }
 
 header p {
-    font-size: 1.2em;
-    margin: 5px 0;
+    font-size: 1.2rem;
+    margin: 10px 0 0;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.1em;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #ffd700; /* Couleur dorée au survol */
-}
-
-/* Sections */
-section {
+/* Style pour la section principale */
+main {
     text-align: center;
     padding: 50px 20px;
-    background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
-    margin: 20px auto;
-    max-width: 1000px;
-    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3); /* Fond léger pour améliorer la lisibilité */
 }
 
-section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
+main h2 {
+    font-size: 2rem;
+    margin: 0 0 20px;
 }
 
-section p {
-    font-size: 1.2em;
-}
-
-/* Galerie */
-.gallery {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.gallery img {
-    max-width: 200px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s;
-}
-
-.gallery img:hover {
-    transform: scale(1.1); /* Effet zoom au survol */
-}
-
-/* Pied de page */
-footer {
-    text-align: center;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.8);
-    color: #ffffff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+main p {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
 }
