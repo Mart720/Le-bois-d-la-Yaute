@@ -1,15 +1,16 @@
 /* Applique l'image d'arrière-plan */
-body.homepage {
-    background-image: url('image\A.webp'); /* Mets le chemin exact vers ton image ici */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    color: #ffffff; /* Texte en blanc pour contraster avec l'arrière-plan */
+body {
+    background-image: url('images/extracted_background.webp'); /* Chemin vers ton image */
+    background-size: cover; /* L'image couvre tout l'écran */
+    background-repeat: no-repeat; /* Pas de répétition */
+    background-attachment: fixed; /* L'image reste fixe lors du scroll */
+    background-position: center; /* L'image est centrée */
+    color: #fff; /* Texte blanc pour être lisible */
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
+
 
 /* Style pour l'en-tête */
 header {
