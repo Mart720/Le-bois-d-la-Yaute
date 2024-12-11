@@ -1,6 +1,6 @@
 /* Applique l'image d'arrière-plan */
 body.homepage {
-    background-image: url('C:\Users\marti\Downloads\A.webp'); /* Mets le chemin exact vers ton image ici */
+    background-image: url('A.webp'); /* Mets le chemin exact vers ton image ici */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
